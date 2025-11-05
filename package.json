@@ -1,0 +1,22 @@
+{
+  "name": "deepeseek-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "agent_runner.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node sync_project.js",
+    "gen:tree": "node generate_tree.js",
+    "run": "npm run sync && npm run gen:tree && node agent_runner.js",
+    "chat": "node agent_runner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.38.5"
+  }
+}
