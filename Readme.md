@@ -1,7 +1,3 @@
-好的，为您精心设计了一份用于 GitHub 开源的 AI Agent 项目 README 文档。这份文档使用了 Markdown 格式，注重结构清晰、排版美观，能够清晰地介绍项目的环境、部署和使用方法。
-
------
-
 # 🤖 DeepSeek Agent：智能代码修改与项目维护智能体
 
 **DeepSeek Agent** 是一个基于 Node.js 和 DeepSeek API 构建的自主代码 Agent 框架。它能够理解复杂的自然语言任务指令，并利用文件读写、目录列表和 Shell 命令工具自主迭代，完成代码审查、Bug 修复、功能开发等任务。
